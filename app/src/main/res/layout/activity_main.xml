@@ -25,7 +25,7 @@
             android:id="@+id/tv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="40dp"
             android:textSize="30sp"
             android:text="$a $b 개 복용"/>
 
@@ -45,19 +45,34 @@
             android:textSize="30sp"
             android:layout_marginBottom="50dp"
             android:text="알약 보관 위치 : $e 번 보관함"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+    android:gravity="center_horizontal">
     <Button
             android:text="복용 완료"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:width="200dp"
+            android:layout_marginRight="40dp"
+            android:width="150dp"
             android:height="50dp"
             android:id="@+id/button2"/>
+
+        <Button
+                android:text="5분 뒤 재알림"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:height="50dp"
+                android:id="@+id/button3"/>
+    </LinearLayout>
+
     <Button
-            android:text="알림"
+            android:text="촬영 알약 보관"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:width="150dp"
+            android:height="50dp"
+            android:layout_marginTop="20dp"
             android:id="@+id/button1"
-            android:visibility="invisible"
     />
 </LinearLayout>
 
